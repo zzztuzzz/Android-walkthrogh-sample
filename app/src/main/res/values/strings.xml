@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IntentActivity1</string>
+    <string name="title_activity_second">second</string>
+    <string name="title_activity_shake">ShakeActivity</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_secound">SecoundActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+
+
+    <string name="text_title">明示的インテントでページ遷移</string>
+    <string name="btn_next">Next</string>
+    <string name="text_nextpage">home</string>
+    <string name="title_activity_osusume">OsusumeActivity</string>
+    <string name="title_activity_menu_active">MenuActiveActivity</string>
+    <string name="title_activity_menu_near">MenuNearActivity</string>
+    <string name="title_activity_menu_like">MenuLike</string>
+    <string name="title_activity_menu_messages">MenuMessages</string>
+    <string name="title_activity_menu_personal">MenuPersonal</string>
+    <string name="title_activity_menu_prospects">MenuProspects</string>
+
+</resources>

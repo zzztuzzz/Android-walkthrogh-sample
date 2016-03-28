@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/msg_home">
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="54dip"
+        android:layout_alignParentBottom="true"
+
+        >
+        <Button
+            android:id="@+id/srh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+
+            android:background="#00000000"
+            android:height="54dp" />
+        <Button
+            android:id="@+id/prs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+
+            android:height="54dp"
+            android:background="#00000000" />
+        <Button
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+
+            android:height="54dp"
+            android:background="#00000000" />
+        <Button
+            android:id="@+id/psn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+
+            android:height="54dp"
+            android:background="#00000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_above="@id/bottom"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+
+</RelativeLayout>
